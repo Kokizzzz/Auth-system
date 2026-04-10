@@ -47,5 +47,5 @@ A modern authentication system built with PHP, MySQL, PHPMailer, and XAMPP.
 ### 1. Clone project
 
 ```bash
-git clone https://github.com/Kokizzzz/Auth-system.git
+git clone https://github.com/PicartWeb/Auth-system
 ```
