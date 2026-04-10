@@ -638,3 +638,57 @@ body.auth-body {
     font-size: 21px;
   }
 }
+@media (max-width: 768px) {
+  .auth-wrapper {
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+  }
+
+  .auth-visual {
+    min-height: 220px;
+    padding: 24px 18px;
+    align-items: flex-end;
+  }
+
+  .auth-visual-content {
+    max-width: 100%;
+  }
+
+  .auth-visual-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .auth-visual-content p {
+    font-size: 0.98rem;
+    max-width: 100%;
+  }
+
+  .visual-shapes {
+    height: 120px;
+  }
+
+  .auth-panel {
+    min-height: auto;
+    padding: 20px 16px 28px;
+    display: block;
+  }
+
+  .auth-box {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 22px 18px;
+    border-radius: 20px;
+  }
+
+  .social-btn,
+  .primary-btn {
+    min-height: 52px;
+  }
+
+  .input-group input {
+    min-height: 52px;
+    font-size: 16px;
+  }
+}
