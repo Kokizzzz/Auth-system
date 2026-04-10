@@ -1,5 +1,7 @@
 # PHP Auth System
 
+![Preview](assets/preview-images/preview.png)
+
 A modern authentication system built with PHP, MySQL, PHPMailer, and XAMPP.
 
 ## Features
@@ -41,3 +43,9 @@ A modern authentication system built with PHP, MySQL, PHPMailer, and XAMPP.
 
 ![Forgot](assets/preview-images/forgot-desktop.png)
 ![Forgot](assets/preview-images/forgot-phone.png)
+
+### 1. Clone project
+
+```bash
+git clone https://github.com/Kokizzzz/Auth-system.git
+```
