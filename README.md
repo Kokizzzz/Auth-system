@@ -25,8 +25,19 @@ A modern authentication system built with PHP, MySQL, PHPMailer, and XAMPP.
 
 ## Setup
 
-### 1. Clone the project
+## Screenshots
 
-```bash
-git clone https://github.com/yourusername/php-auth-system.git
-```
+### Login
+
+![Login](assets/preview-images/login-desktop.png)
+![Login](assets/preview-images/login-phone.png)
+
+### Signup
+
+![Signup](assets/preview-images/signup-desktop.png)
+![Signup](assets/preview-images/signup-phone.png)
+
+### Forgot Password
+
+![Forgot](assets/preview-images/forgot-desktop.png)
+![Forgot](assets/preview-images/forgot-phone.png)
