@@ -10,17 +10,14 @@ function sendResetCodeEmail($toEmail, $code) {
 
     try {
         $mail->isSMTP();
-        $mail->Host       = 'mail.privateemail.com';
+        $mail->Host       = '';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'info@picartweb.com';
-        $mail->Password   = 'Korabahmeti12345';
+        $mail->Username   = 'your-email@example.com';
+        $mail->Password   = 'your-email-password';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
-        $mail->SMTPDebug = 0;
-        $mail->Debugoutput = 'html';
-
-        $mail->setFrom('info@picartweb.com', 'PicartWeb Auth');
+        $mail->setFrom('your-email@example.com', 'Auth System');
         $mail->addAddress($toEmail);
 
         $mail->isHTML(true);
